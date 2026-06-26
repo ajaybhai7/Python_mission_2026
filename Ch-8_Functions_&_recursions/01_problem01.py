@@ -29,4 +29,4 @@ a = int(input("Enter Number A : "))
 b = int(input("Enter Number B : ")) 
 c = int(input("Enter Number C : ")) 
 
-print(greater(a, b, c))
+print(f"Greatest Number is: {greater(a, b, c)}")
