@@ -7,5 +7,5 @@ def pattern(n):
     if (n==0):
         return
     print("*" * n)
-    n = n - 1
+    pattern(n-1)
 pattern(5)
