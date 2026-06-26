@@ -6,6 +6,6 @@ def rem(l, word):
         if not (item == word):
             n.append(item.strip(word))
     return n
-n = input("Enter word to remove : ")
+a = input("Enter word to remove : ")
 l = [1, 4, 2, 5, "Ajay", "Arun"]
-print(l, n)
+print(l, a)
