@@ -10,6 +10,6 @@
 list = [1, 3, 5, 6, 3, 1]
 for item in list:
     print(item*"*")
-
-
-print("Done")
+    
+else:
+    print("Done")
