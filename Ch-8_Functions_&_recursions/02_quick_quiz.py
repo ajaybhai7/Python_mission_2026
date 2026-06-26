@@ -9,6 +9,6 @@ greet()
 # in another way
 
 def greet(name):
-    print("Good Day" + name)
+    print("Good Day" +  name)
 
 greet("Ajay")
