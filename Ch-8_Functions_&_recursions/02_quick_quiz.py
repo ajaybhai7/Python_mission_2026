@@ -11,4 +11,4 @@ greet()
 def greet(name):
     print("Good Day" + name)
 
-greet()
+greet("Ajay")
