@@ -7,4 +7,6 @@ total = 0
 while i<=n:
     i += 1
     total += i
-print(sum)
+print(total)
+
+
