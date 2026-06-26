@@ -5,3 +5,10 @@ def greet():
     print(f"Good Day {Name}")
 
 greet()
+
+# in another way
+
+def greet(name):
+    print("Good Day" + name)
+
+greet()
