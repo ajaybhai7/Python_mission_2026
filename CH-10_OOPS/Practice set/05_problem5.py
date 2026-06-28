@@ -11,5 +11,6 @@ class Train:
         print(f"Trin no: {trainNo} is running on time")
     def getFare(self, trainNo, fro, to):
         print(f" Ticket fare in train no: {trainNo} from {fro} to {to} is : {randint(2222,555555)}")
-    
+
+t = Train()
 Train.book("Anand Vihar", "Deli")
