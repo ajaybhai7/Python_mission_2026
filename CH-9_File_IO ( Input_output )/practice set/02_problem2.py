@@ -13,18 +13,18 @@ def game():
 
 
     with open("High-score.txt") as f:
-        high_score = (f.read())
-        if (high_score != ""):
-            high_score = int(high_score)
+        hiscore = (f.read())
+        if (hiscore != ""):
+            hiscore = int(hiscore)
         else:
-            high_score == 0
+            hiscore == 0
 
     print(f"You Score is: {score}")
 
-    if (score > high_score):
+    if (score > hiscore):
         with open("High-score.txt", "w") as f:
 
-            f.write(int(high_score))
+            f.write(str(hiscore))
 
     return score
 
