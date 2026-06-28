@@ -23,7 +23,8 @@ def game():
 
     if (score > high_score):
         with open("High-score.txt", "w") as f:
-            f.write(str(high_score))
+
+            f.write(int(high_score))
 
     return score
 
