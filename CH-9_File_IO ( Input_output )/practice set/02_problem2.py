@@ -7,7 +7,7 @@ whenever the game() function breaks the Hi-score.
 
 import random
 
-def game():
+# def game():
     score = random.randint(1, 100)
     print("You are Playing.....")
 
