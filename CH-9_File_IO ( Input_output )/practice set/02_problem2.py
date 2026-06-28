@@ -8,14 +8,14 @@ whenever the game() function breaks the Hi-score.
 import random
 
 # def game():
-    score = random.randint(1, 100)
-    print("You are Playing.....")
+score = random.randint(1, 100)
+print("You are Playing.....")
 
-    with open("Hiscore.txt") as f:
-        hiscore = f.read()
-        # if(hiscore != ""):
-        hiscore = int(hiscore)
-        print(hiscore, type(hiscore))
+with open("Hiscore.txt") as f:
+    hiscore = f.read()
+    # if(hiscore != ""):
+    hiscore = int(hiscore)
+    print(hiscore, type(hiscore))
     #     else:
     #         hiscore == 0
 
