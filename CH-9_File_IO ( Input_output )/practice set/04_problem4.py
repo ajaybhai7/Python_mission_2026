@@ -8,7 +8,7 @@ with open("file.txt", "r", encoding="utf-8") as f:
     file = f.read()
 
 # File replace karo
-file = file.replace("Donkey", "*****")
+file = file.replace("*****", "Donkey")
 
 # File write karo
 
