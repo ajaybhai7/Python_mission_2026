@@ -10,9 +10,6 @@ while i < 10:
     i = i+1
     if i == 10:
         n = n + 1
-        while i < 10:
-            print(f"{n} x {i} = {n*i}")
-
 # with open("table.txt", "w") as file:
 #     file.write()
     
