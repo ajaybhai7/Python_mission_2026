@@ -13,3 +13,9 @@ def generatetable(n):
 
 for i in range(2, 21):
     generatetable(i)
+
+
+# It will generate a folder that name be tables in the tables 
+# folder it will generate a multiplication table in it,
+# in different - 2 txt file 
+
