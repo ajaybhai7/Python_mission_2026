@@ -13,3 +13,4 @@ print(rohan.name, rohan.language, rohan.sallary)
 
 # Here name is object attribute and sallary and language are class
 # attributes as thety directly belong to the class.
+

@@ -14,6 +14,8 @@ Ajay = employee()
 Ajay.friend = "Vijay"
 print(Ajay.friend, Ajay.name, Ajay.sallary, Ajay.age, Ajay.language)
 # So pahle ye instance wali argument print hoga fir object ke pass jayega 
-# aur tab ja ke niche wale dono function ki requirnment puri hogi
+# aur tab ja ke niche wale dono function ki requirnment puri hogis
 Ajay.getinfo()
 Ajay.greet()
+
+
