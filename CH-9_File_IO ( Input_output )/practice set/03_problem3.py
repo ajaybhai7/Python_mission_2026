@@ -7,7 +7,7 @@ def generatetable(n):
     for i in range(1, n+1):
         table += f"{n} x {i} = {n*i}\n"
     
-    with open(f"tables/tables_{n}", "w") as f:
+    with open(f"tables/table_{n}", "w") as f:
         f.write(table)
 
 
