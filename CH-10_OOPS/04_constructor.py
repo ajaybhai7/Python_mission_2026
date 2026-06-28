@@ -4,8 +4,12 @@ class employees:
     language = "python"
 
     def __init__(self, name, age, language): # Dunder method which is automatically self called
-
+        self.name = name
+        self.age = age
+        self.language = language
         print("I am creating an objecct")
+
+        
     def getinfo(self):
         print(f"This name is: {self.name}\nThis age is : {self.age}\nThis language is : {self.language}")
     @staticmethod # It's dont Need Any self Parameter in the function like
