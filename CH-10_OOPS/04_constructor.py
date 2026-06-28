@@ -17,6 +17,6 @@ class employees:
 Ajay = employees()
 Ajay.getinfo()
 Ajay.greet()
-
+rohit = employees()
 
               
