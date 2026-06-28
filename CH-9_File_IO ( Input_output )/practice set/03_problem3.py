@@ -4,7 +4,7 @@ and write it to the new different file in a folder for a
 13 years old.. '''
 def generatetable(n):
     table = ""    
-    for i in range(1, n+1):
+    for i in range(1, 11):
         table += f"{n} x {i} = {n*i}\n"
     
     with open(f"tables/table_{n}", "w") as f:
