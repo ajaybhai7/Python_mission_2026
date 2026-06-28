@@ -14,6 +14,7 @@ def generatetable(n):
 
 for i in range(2, 21):
     generatetable(i)
+    generatetable(i)
 
 
 # It will generate a folder that name be tables in the tables 
