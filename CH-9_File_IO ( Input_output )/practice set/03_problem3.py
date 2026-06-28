@@ -5,10 +5,14 @@ and write it to the new different file in a folder for a
 
 i = 1
 n = 1
-while i < 10:
+while i < 11:
     print(f"{n} x {i} = {i*n}")
     i = i+1
-    n = n+1
+    if i == 11:
+        n += 1
+        while i < 11:
+            print(f"{n} x {i} = {i*n}")
+            i = i+1
 # with open("table.txt", "w") as file:
 #     file.write()
     
