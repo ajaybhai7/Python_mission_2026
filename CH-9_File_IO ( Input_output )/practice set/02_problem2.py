@@ -12,7 +12,7 @@ score = random.randint(1, 100)
 print("You are Playing.....")
 
 with open("Hiscore.txt") as f:
-    hiscore = int(f.read())
+    hiscore = int((f.read()))
     # if(hiscore != ""):
     # hiscore = int(hiscore)
     print(hiscore, type(hiscore))
