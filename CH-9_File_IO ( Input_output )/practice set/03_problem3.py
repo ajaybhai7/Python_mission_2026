@@ -3,5 +3,16 @@ Write a program to generate multiplication table from 2 to 20
 and write it to the new different file in a folder for a 
 13 years old.. '''
 
-with open("table.txt", "w") as table:
-    table.write(table.txt)
+i = 1
+n = 1
+while i < 10:
+    print(f"{n} x {i} = {i*n}")
+    i = i+1
+    if i == 10:
+        n = n + 1
+        while i < 10:
+            print(f"{n} x {i} = {n*i}")
+
+# with open("table.txt", "w") as file:
+#     file.write()
+    
