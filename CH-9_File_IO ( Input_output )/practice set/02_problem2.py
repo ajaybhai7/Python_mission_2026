@@ -11,22 +11,18 @@ def game():
     score = random.randint(1, 100)
     print("You are Playing.....")
 
-
     with open("Hiscore.txt") as f:
         hiscore = f.read()
-        if (hiscore != ""):
-            hiscore = int(hiscore)
+        if(hiscore != ""):
+            hiscore = (int(hiscore))
         else:
             hiscore == 0
 
     print(f"You Score is: {score}")
-
     if (score > hiscore):
         with open("Hiscore.txt", "w") as f:
-
             f.write(str(hiscore))
 
     return score
-
 
 game()
