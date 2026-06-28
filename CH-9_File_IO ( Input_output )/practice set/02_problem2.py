@@ -10,10 +10,10 @@ import random
 def game():
     score = random.randint(1, 100)
     print("You are Playing.....")
-    print(f"High score is: {highscore}")
 
     with open("Hiscore.txt") as f:
         hiscore = (f.read())
+        print(f"High score is : {highscore}")
         if (hiscore != ""):
             hiscore = int(hiscore)
         else:
