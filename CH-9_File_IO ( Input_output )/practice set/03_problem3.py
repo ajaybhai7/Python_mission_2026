@@ -11,5 +11,5 @@ def generatetable(n):
         f.write(table)
 
 
-    for i in range(2, 21):
-        generatefunction(n)
+for i in range(2, 21):
+    generatetable(i)
