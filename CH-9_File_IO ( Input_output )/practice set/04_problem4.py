@@ -3,10 +3,16 @@ write a program which replace this word with #### by updating
 the same file'''
 
 
-with open ("file.txt") as f:
+# File padho 
+with open("file.txt", "r", encoding="utf-8") as f:
     file = f.read()
 
-content = file.replace("Donkey", "#####")
+# File replace karo
+file = file.replace("Donkey", "*****")
 
-with open("file.txt", "w") as f:
-    f.write(content)
+# File write karo
+
+with open("file.txt", "w", encoding="utf-8") as f:
+    f.write(file)
+
+print("Sucessfully Changed.....")
