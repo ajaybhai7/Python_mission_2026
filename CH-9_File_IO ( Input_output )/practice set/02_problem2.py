@@ -14,15 +14,16 @@ def game():
     with open("Hiscore.txt") as f:
         hiscore = f.read()
         if(hiscore != ""):
-            hiscore = (int(hiscore))
-        else:
-            hiscore == 0
+            hiscore = int(hiscore)
+            print(hiscore, type(hiscore))
+    #     else:
+    #         hiscore == 0
 
-    print(f"You Score is: {score}")
-    if (score > hiscore):
-        with open("Hiscore.txt", "w") as f:
-            f.write(str(hiscore))
+    # print(f"You Score is: {score}")
+    # if (score > hiscore):
+    #     with open("Hiscore.txt", "w") as f:
+    #         f.write(str(hiscore))
 
-    return score
+    # return score
 
 game()
