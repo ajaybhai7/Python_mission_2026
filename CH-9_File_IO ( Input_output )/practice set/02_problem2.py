@@ -13,9 +13,9 @@ def game():
 
     with open("Hiscore.txt") as f:
         hiscore = f.read()
-        if(hiscore != ""):
-            hiscore = int(hiscore)
-            print(hiscore, type(hiscore))
+        # if(hiscore != ""):
+        hiscore = int(hiscore)
+        print(hiscore, type(hiscore))
     #     else:
     #         hiscore == 0
 
