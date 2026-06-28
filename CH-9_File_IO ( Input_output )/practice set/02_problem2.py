@@ -12,7 +12,7 @@ def game():
     print("You are Playing.....")
 
 
-    with open("High-score.txt") as f:
+    with open("Hiscore.txt") as f:
         hiscore = (f.read())
         if (hiscore != ""):
             hiscore = int(hiscore)
