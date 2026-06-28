@@ -5,9 +5,10 @@ with open("log.txt", "r")as f:
     lines = f.readlines()
 lineno = 1
 for line in lines:
-    print(f"Yes python is present. Line no: {lineno}")
-    lineno = lineno + 1
-    break
+    if "python" in line:
+        print(f"Yes python is present. Line no: {lineno}")
+        lineno = lineno + 1
+        break
 
 
 else:
