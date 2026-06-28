@@ -22,7 +22,7 @@ def game():
     print(f"You Score is: {score}")
 
     if (score > hiscore):
-        with open("High-score.txt", "w") as f:
+        with open("Hiscore.txt", "w") as f:
 
             f.write(str(hiscore))
 
