@@ -15,6 +15,7 @@ class employees:
         print("Good Morning")
 
 Ajay = employees()
+print(Ajay.name, Ajay.age)
 rohit = employees()
 
               
