@@ -15,8 +15,6 @@ class employees:
         print("Good Morning")
 
 Ajay = employees()
-Ajay.getinfo()
-Ajay.greet()
 rohit = employees()
 
               
