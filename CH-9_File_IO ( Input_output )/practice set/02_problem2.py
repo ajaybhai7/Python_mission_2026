@@ -7,23 +7,26 @@ whenever the game() function breaks the Hi-score.
 
 import random
 
-# def game():
-score = random.randint(1, 100)
-print("You are Playing.....")
+def game():
+    score = random.randint(1, 100)
+    print("You are Playing.....")
 
-with open("Hiscore.txt") as f:
-    hiscore = int((f.read()))
-    # if(hiscore != ""):
-    # hiscore = int(hiscore)
-    print(hiscore, type(hiscore))
-    #     else:
-    #         hiscore == 0
 
-    # print(f"You Score is: {score}")
-    # if (score > hiscore):
-    #     with open("Hiscore.txt", "w") as f:
-    #         f.write(str(hiscore))
+    with open("Hiscore.txt") as f:
+        hiscore = (f.read())
+        if (hiscore != ""):
+            hiscore = int(hiscore)
+        else:
+            hiscore = 0
 
-    # return score
+    print(f"You Score is: {score}")
 
-# game()
+    if (score > hiscore):
+        with open("Hiscore.txt", "w") as f:
+
+            f.write(str(hiscore))
+
+    return score
+
+
+game()
