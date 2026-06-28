@@ -26,4 +26,4 @@ with open("Hiscore.txt") as f:
 
     # return score
 
-game()
+# game()
