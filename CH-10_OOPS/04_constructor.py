@@ -20,5 +20,6 @@ class employees:
 
 Ajay = employees("Ajay", 21, "Javascrippt") 
 rohit = employees("Roht", 23, "Assembly")
-
+print(Ajay.name, Ajay.age, Ajay.language)
+print(rohit.name, rohit.age, rohit.language)
               
