@@ -5,3 +5,4 @@ with open("this.txt", "r")as f:
 
 with open("CopyThis.txt", "w")as f:
     f.write(file)
+
