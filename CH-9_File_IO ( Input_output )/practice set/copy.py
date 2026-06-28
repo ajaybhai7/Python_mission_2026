@@ -18,10 +18,6 @@ def game():
     if score > hiscore:
         with open("Hiscore.txt", "w") as f:
             f.write(str(score))
-        
-    elif hiscore < score :
-        with open("Hiscore.txt", "w") as f:
-            f.write(str(score))
         print("Congrass..! Hit the Highscore...")
     return score
 
