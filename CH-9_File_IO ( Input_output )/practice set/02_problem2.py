@@ -11,8 +11,13 @@ def game():
     score = random.randint(1, 100)
     print("You are Playing.....")
 
+
     with open("High-score.txt") as f:
-        high_score = int(f.read())
+        high_score = (f.read())
+        if (high_score != ""):
+            high_score = int(high_score)
+        else:
+            high_score == 0
 
     print(f"You Score is: {score}")
 
