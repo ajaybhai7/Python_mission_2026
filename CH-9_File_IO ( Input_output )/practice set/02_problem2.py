@@ -13,7 +13,7 @@ def game():
 
 
     with open("Hiscore.txt") as f:
-        hiscore = (f.read())
+        hiscore = f.read()
         if (hiscore != ""):
             hiscore = int(hiscore)
         else:
