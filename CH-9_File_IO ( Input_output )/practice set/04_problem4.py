@@ -9,4 +9,4 @@ with open ("file.txt") as f:
 content = file.replace("Donkey", "#####")
 
 with open("file.txt", "w") as f:
-    
+    f.write(content)
