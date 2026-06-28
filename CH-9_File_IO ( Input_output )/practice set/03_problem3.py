@@ -3,7 +3,7 @@ Write a program to generate multiplication table from 2 to 20
 and write it to the new different file in a folder for a 
 13 years old.. '''
 
-def multy():
+def multy(n, i):
     n = 1
     i = 1
     while i > 10:
