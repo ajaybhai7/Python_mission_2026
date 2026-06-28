@@ -3,7 +3,7 @@ class employees:
     age  = 20
     Language = "python"
 
-    def __init__(self): # Dunder method
+    def __init__(self): # Dunder method which is automatically self called
         print("I am creating an objecct")
 
     def getinfo(self):
