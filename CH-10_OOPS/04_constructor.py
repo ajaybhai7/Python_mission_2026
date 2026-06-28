@@ -14,8 +14,7 @@ class employees:
     def greet():
         print("Good Morning")
 
-Ajay = employees()
-print(Ajay.name, Ajay.age)
+Ajay = employees() 
 rohit = employees()
 
               
