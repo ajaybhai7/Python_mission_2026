@@ -10,6 +10,6 @@ class programmer():
         print(f"Name of employee is {self.name} and her/his language {self.language} is good")
 
 a = employee()
-b = programer()
+b = programmer()
 
 print(a.company, b.company)
