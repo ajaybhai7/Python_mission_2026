@@ -6,15 +6,16 @@ class demo:
 
 o = demo()
 print(o.a)
-     
-o.a = 0
-print(o.a)
+#prints class attribute because instance attribute
+# is not present
+o.a = 0 # instance attribute set
+print(o.a) # prints the instance attribute 
+# because the instance attribute is present
 
-print(demo.a)
+print(demo.a) # Prints the class attribute
 # The Output will be: 
 """
 4 first output
 0 second output
 """
 
- 
