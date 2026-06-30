@@ -7,4 +7,4 @@ def sum(a: int, b : int) -> int:
     return (a+b)
 
 a = sum(2, 4)
-print(a.sum)
+print(a)
