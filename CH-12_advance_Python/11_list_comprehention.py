@@ -31,3 +31,5 @@ myList = [1, 3, 5, 8, 3, 2]
 squarelist = [i*i for i in myList]
 
 print(squarelist)
+
+# Similar work with a less line of code
