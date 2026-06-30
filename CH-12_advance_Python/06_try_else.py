@@ -19,6 +19,9 @@ else:
 # Enter a Second number: 23
 # The division is a/b is 0.5217391304347826
 # ==== End of the program ====
+# Else tabhi chalega jab try ke andar wala program sahi se run
+# ho jayega
+
 
 # Case2 Output
 # Enter a number: skahdkha
