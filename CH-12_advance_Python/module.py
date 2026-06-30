@@ -2,4 +2,6 @@ def myFunc():
     print("Hello World!")
 
 myFunc()
-print(__name__)
+print(__name__) # print name of file if we import anywhere 
+
+#Output: 
