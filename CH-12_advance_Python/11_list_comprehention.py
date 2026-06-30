@@ -23,3 +23,11 @@ print(squarelist)
 # Output
 
 # [1, 9, 25, 64, 9, 4]
+
+# in comprehention
+
+myList = [1, 3, 5, 8, 3, 2]
+
+squarelist = [i*i for i in myList]
+
+print(squarelist)
