@@ -14,10 +14,12 @@ else:
     print("==== End of the program ====")
 
 
-# Case1
+# Case1 Output
 # Enter a number: 12
 # Enter a Second number: 23
 # The division is a/b is 0.5217391304347826
 # ==== End of the program ====
 
-
+# Case2 Output
+# Enter a number: skahdkha
+# Please Enter a Valid input!
