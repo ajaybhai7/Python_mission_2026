@@ -23,4 +23,11 @@ print(list(onlyeven))
 def sum(a, b):
     return a + b
 
+mul = lambda x,y: x*y
 print(reduce(sum, l))
+print(reduce(mul, l))
+
+# Output
+# [1, 4, 9, 16, 25]
+# [2, 4]
+# 15
