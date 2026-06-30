@@ -8,3 +8,7 @@ def fun():
 
 fun() #Local variable
 print(a)
+
+# Output
+# 2
+# 2
