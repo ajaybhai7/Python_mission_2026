@@ -11,7 +11,7 @@ def main():
     except ValueError:
         print("Please Enter a Valid input!")
 
-    finally:
-        print("==== End of the program ====")
+    
+    print("==== End of the program ====")
     
 main()
