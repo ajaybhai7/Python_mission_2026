@@ -8,6 +8,7 @@ def main():
         print("Please Enter a Valid input!")
         return
     
+    finally:
         print("==== End of the program ====")
     
 main()
