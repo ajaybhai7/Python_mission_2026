@@ -1,7 +1,8 @@
 a = 90 # globle variable
 
 def fun():
-    global a
+    global a # This will replace the global varible to local variable
+    # means it shows Output 1
     a = 2
 
     print(a)
@@ -9,6 +10,6 @@ def fun():
 fun() #Local variable
 print(a)
 
-# Output
+# Output 1
 # 2
 # 2
