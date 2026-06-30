@@ -12,3 +12,12 @@ except ValueError:
 
 else:
     print("==== End of the program ====")
+
+
+# Case1
+# Enter a number: 12
+# Enter a Second number: 23
+# The division is a/b is 0.5217391304347826
+# ==== End of the program ====
+
+
