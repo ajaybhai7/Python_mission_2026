@@ -9,7 +9,9 @@ def http_status(status):
         case _:
             return "Unknown Status"
         
-print(http_status(200))
-print(http_status(404))
-print(http_status(500))
-print(http_status(83))
+print(http_status(500)) # ok
+print(http_status(200)) # Not Found
+print(http_status(404)) # Internal Server Error
+print(http_status(832)) # Unknown Status
+                        
+
