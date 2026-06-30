@@ -22,4 +22,4 @@ print(squarelist)
 
 # Output
 
-#
+# [1, 9, 25, 64, 9, 4]
