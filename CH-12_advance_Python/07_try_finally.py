@@ -2,15 +2,11 @@ def main():
     try:
         a = int(input("Enter a number: "))
         b = int(input("Enter a Second number: "))
-
-        if b == 0 or a == 0:
-            raise ZeroDivisionError("Hey our program is not " \
-            "meant to devide number by zero")
-        else:
-            print(f"The division is a/b is {a/b}")
+        print(f"The division is a/b is {a/b}")
+        return
     except ValueError:
         print("Please Enter a Valid input!")
-
+        return
     
         print("==== End of the program ====")
     
