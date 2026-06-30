@@ -6,3 +6,6 @@ for item in myList:
     squarelist.append(item)
 
 print(squarelist)
+
+# Output
+
